@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #090909;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #090000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #090909;
+}
+
+#search-input {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0f0101e1;
+}
+
+#search-button, #sort-mkt-cap-button, #sort-percentage-button {
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #090909fe;
+    color: #fff;
+    cursor: pointer;
+}
+
+#search-button:hover, #sort-mkt-cap-button:hover, #sort-percentage-button:hover {
+    background-color: #0c0c0c;
+}
